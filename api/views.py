@@ -3,8 +3,6 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from api.database import db
 from rest_framework.response import Response
-
-from api.serializer import ProductSerializer
 import json
 from bson import json_util
 
